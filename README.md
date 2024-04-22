@@ -56,7 +56,7 @@ Follow the below instruction to clone this repo and install
 >
 > cd Rock64-I2C-LCD-Stats
 > 
-> wget http://tutorials-raspberrypi.de/wp-content/uploads/scripts/hd44780_i2c.zip
+> git clone https://github.com/ArcadiaLabs/raspberry_lcd4x20_I2C ~~wget http://tutorials-raspberrypi.de/wp-content/uploads/scripts/hd44780_i2c.zip~~
 >
 > unzip hd44780_i2c.zip
 >
