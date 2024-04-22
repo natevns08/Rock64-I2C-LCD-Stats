@@ -23,25 +23,27 @@ The following list is of all the stats that RPi-Monitor collects for the Rock64.
 
 
 ## Setup Instructions
-Follow the below sections to learn how to setup a I2C 16x2 LCD display on the Rock64 to display system stats. 
+Follow the below sections to learn how to setup a I2C 16x2 LCD display on the Rock64 to display system stats. (I used [DietPi](https://www.dietpi.com) for this) 
 
 ### Hardware
-* Rock64 (This includes the power supply, SD card, and OS)
+* Rock64 (with [DietPi](https://www.dietpi.com) installed and configured)
 * I2C LCD
-* [Optional] Case
+* Case [Optional] 
 
 ### Prerequiests
 * Rock64 with an OS installed and booted and updated.
-* Installed packages ()
-  * RPi-Monitor
+* Installed packages 
+  * RPi-Monitor (instructions [here](https://xavierberger.github.io/RPi-Monitor-docs/11_installation.html))
 * Following Software also
-> sudo apt-get install python
+> sudo apt-get install python3
 > 
 > sudo apt-get install python-pip
 > 
-> sudo apt-get install python-smbus
+> sudo apt-get install python3-smbus
 > 
 > sudo apt-get install i2c-tools
+>
+> sudo pat install git
 
 
 ### Install
